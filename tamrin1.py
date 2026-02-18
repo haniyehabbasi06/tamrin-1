@@ -32,7 +32,7 @@ while True:
         if len(students) == 0:
             print(" No students yet!")
         else:
-            print("\n📋 Student List:")
+            print("\nStudent List:")
             print("-"*30)
             for id, name in students.items():
                 print(f"ID: {id} -> Name: {name}")
